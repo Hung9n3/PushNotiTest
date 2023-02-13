@@ -1,0 +1,13 @@
+C:\Users\HungDoDuy\source\repos\PushNotiTest\PushNotiTest\obj\Release\net6.0\PubTmp\Out\PushNotiTest.exe
+C:\Users\HungDoDuy\source\repos\PushNotiTest\PushNotiTest\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\HungDoDuy\source\repos\PushNotiTest\PushNotiTest\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\HungDoDuy\source\repos\PushNotiTest\PushNotiTest\obj\Release\net6.0\PubTmp\Out\PushNotiTest.dll
+C:\Users\HungDoDuy\source\repos\PushNotiTest\PushNotiTest\obj\Release\net6.0\PubTmp\Out\PushNotiTest.deps.json
+C:\Users\HungDoDuy\source\repos\PushNotiTest\PushNotiTest\obj\Release\net6.0\PubTmp\Out\PushNotiTest.runtimeconfig.json
+C:\Users\HungDoDuy\source\repos\PushNotiTest\PushNotiTest\obj\Release\net6.0\PubTmp\Out\PushNotiTest.pdb
+C:\Users\HungDoDuy\source\repos\PushNotiTest\PushNotiTest\obj\Release\net6.0\PubTmp\Out\Microsoft.Azure.NotificationHubs.dll
+C:\Users\HungDoDuy\source\repos\PushNotiTest\PushNotiTest\obj\Release\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Users\HungDoDuy\source\repos\PushNotiTest\PushNotiTest\obj\Release\net6.0\PubTmp\Out\Newtonsoft.Json.dll
+C:\Users\HungDoDuy\source\repos\PushNotiTest\PushNotiTest\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\HungDoDuy\source\repos\PushNotiTest\PushNotiTest\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\HungDoDuy\source\repos\PushNotiTest\PushNotiTest\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
