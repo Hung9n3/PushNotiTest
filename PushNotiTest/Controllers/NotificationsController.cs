@@ -93,5 +93,11 @@ namespace PushDemoAPI.Controllers
             }
             
         }
+        [HttpGet]
+        [AllowAnonymous]
+        public IActionResult Hello()
+        {
+            return Ok("Hello");
+        }
     }
 }
