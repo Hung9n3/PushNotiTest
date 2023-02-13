@@ -70,19 +70,28 @@ namespace PushDemoAPI.Controllers
         public async Task<IActionResult> RequestPush(
             [Required] NotificationRequest notificationRequest)
         {
-            if ((notificationRequest.Silent &&
+            try
+            {
+                if ((notificationRequest.Silent &&
                 string.IsNullOrWhiteSpace(notificationRequest?.Action)) ||
                 (!notificationRequest.Silent &&
                 string.IsNullOrWhiteSpace(notificationRequest?.Text)))
-                return new BadRequestResult();
+                    return new BadRequestResult();
 
-            var success = await _notificationService
-                .RequestNotificationAsync(notificationRequest, HttpContext.RequestAborted);
+                var success = await _notificationService
+                    .RequestNotificationAsync(notificationRequest, HttpContext.RequestAborted);
 
-            if (!success)
-                return new UnprocessableEntityResult();
+                if (!success)
+                    return new UnprocessableEntityResult();
 
-            return new OkResult();
+                return new OkResult();
+            }
+            catch (Exception ex)
+            {
+
+                return BadRequest(ex);
+            }
+            
         }
     }
 }
